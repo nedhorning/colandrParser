@@ -1,4 +1,4 @@
-#colandrParser
+## colandrParser
 This is an R script and user guide to  read a CSV file exported from Colandr (https://www.colandrcommunity.com/) and output an ASCII text file with search strings using that can be pasted into a Scopus “Advanced” search interface to access document using the  Scopus Document
 Download Manager. The repository includes:
 - An R script that creates Scopus search strings from a CSV file exported from Colandr
