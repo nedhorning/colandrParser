@@ -5,11 +5,11 @@
 
 # The script first extracts citations that are flagged as "citation_screening_status" = "included". 
 # Next, the titles of all included citations are extracted and formatted as a Scopus 
-# search string. Due to constraint in Scopus that limit the length of a search string 
-# the script subsets the search string into a user-defined number of sets. For example, 
-# if you had 95 citations and wanted ten titles in a single search string you would set 
-# “numPapers” to ten. The output ASCII text file would have nine search strings with 10 
-# titles and a tenth with five titles. 
+# search string. Due to a constraint in Scopus that limits the length of a search string 
+# the script subsets the full search string into sets with a user-defined number of titles. 
+# For example, if you had 95 citations and wanted ten titles in a single search string you 
+# would set “numPapers” to ten. The output ASCII text file would have nine search strings 
+# with 10 titles and a tenth with five titles. 
 #
 # Set the variables below in the "SET VARIABLES HERE" section of the script. 
 #
